@@ -118,7 +118,36 @@ Redirect URI
 
 ### Quiz 2 
 
-1. 
+1. When a user is using Travis CI to test code from GitHub, GitHub is playing which of the OAuth roles?
+Authorization Server and Resource Server - Even though GitHub is one piece of software, it is playing two roles in the OAuth flow
+
+2. When a user is using Travis CI to test code from GitHub, Travis CI is playing which of the OAuth roles?
+Client - A "client" in OAuth is the one that's trying to access resources using an access token
+
+3. If you are building an iPhone app, using an external service as your Authorization Server, which roles are you building?
+Client 
+
+4. If you are building an API, using an external service as your Authorization Server, which roles are you building?
+Resource Server
+
+5. If you are building an application with a .NET backend, which type of application are you building?
+Confidential 
+
+6. If you are building a mobile app, which type of application are you building?
+Public
+
+7. Which of the below is considered a “public client”?
+An iPhone app used only by employees - Mobile apps don’t have the ability to be deployed with credentials, so they are considered public clients. The users of the app are not significant to this distinction.
+
+8. Which of the below is considered a “confidential client”?
+A server-side Java app for publising blog posts - Even though the app will be used to create public content, the application is considered a "confidential client" since it can be deployed with credentials 
+
+9. Which is the better description of the term “back channel”?
+A request from an HTTP client to an HTTP server - Any HTTP client that makes a request to an HTTP server is using the back channel, even if that client is JavaScript code in a browser
+
+10. Which is the better description of the term “front channel”?
+Sending data by making the browser redirect - Using the browser’s address bar to move data between two other pieces of software is using the front channel.
+
 
 
 ## Section 3: OAuth Clients
