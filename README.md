@@ -95,8 +95,11 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 
 - Front Channel vs Back Channel 
 > describes the 2 different ways how data moves around between systems:
+> 
 > back channel:  normal/ secure, HTTPS client to serever connection (certification, encription, trusted)
+> 
 > front channel: using address bar to transfer data (uncertainty)
+
 
 
 - Application Identity 
