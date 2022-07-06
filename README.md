@@ -102,11 +102,14 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 > Backend request with java is done with ajax or fetch 
 > 
 > front channel: using address bar to transfer data (uncertainty)
+> ![flow-channels-5d8996b3706cab1e4ac8f9ed716d6529d3970f91cbc3cb5ff5a21a94389d0e1d](https://user-images.githubusercontent.com/83961643/177546795-64333987-3b8a-474c-8ca5-76b0ccd5082a.png)
+> [reference](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
 
 
 
 - Application Identity 
 
+PKCE (pronounced "pixy") is a security extension to OAuth 2.0 for public clients on mobile devices, designed to prevent interception of the authorisation code by a malicious application that has sneaked into the same device.
 
 Quiz 2 
 
