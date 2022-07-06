@@ -83,6 +83,13 @@ Credentials cannot be securely stored in public applications.
 
 - User Consent 
 
+Concent screen being critical to the flow 
+
+Password grant - app sends prompt to user, user gives permisions ect 
+
+<img width="888" alt="2022-01-31_23-33-45" src="https://user-images.githubusercontent.com/83961643/177543848-87414fd2-5f80-4c27-a7a1-963d5971ed9c.png">
+
+
 - Front Channel vs Back Channel 
 
 - Application Identity 
@@ -94,10 +101,15 @@ Quiz 2
 ## Section 3: OAuth Clients
 
 
-## Section 4 
+## Section 4: OAuth for Server-side applications
 
 
-## Section 5 
+## Section 5: OAuth for native applications
+
+## Section 6: OAuth for singlepage applications
+
+
+## Section 7: OAuth for the Internet of things 
 
 
 ## Section 16: Conclusion 
