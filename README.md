@@ -160,7 +160,12 @@ Sign up at developer.okta.com then follow along with exercises.
 
 
 ## Section 4: OAuth for Server-side applications
-Registering an appliction 
+- Registering an appliction 
+
+"When a developer comes to your website, they will need a way to create a new application and obtain credentials. Typically you will have them create a developer account, or create an account on behalf of their organization, before they can create an application.
+
+While the OAuth 2.0 spec doesn’t require you to collect any application information in particular before granting credentials, most services collect basic information about an app, such as the app name and an icon, before issuing the client_id and client_secret. It is, however, important that you require the developer to register one or more redirect URLs for the application for security purposes. This is explained in more detail in Redirect URLs." [Reference](https://www.oauth.com/oauth2-servers/client-registration/registering-new-application/)
+
 
 Authorization Code Flow for Web Applictions
 
