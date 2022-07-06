@@ -197,8 +197,13 @@ The user is using their browser to access the application which needs an access 
 **Be careful of the Authorizaion injection code attack**
 "With a client secret and authorization code, a malicious application can effectively impersonate the original application for which the authorization code was issued." [Reference](https://www.f5.com/labs/articles/cisotociso/securing-apis-in-banking-with-oauth-and-pkce)
 
-### Assignment 2
+![whattofetch](https://user-images.githubusercontent.com/83961643/177586610-ac98e131-f532-45a1-97ae-3e4b5cf21ad8.jpeg)
 
+
+### Assignment 2
+The goal of this exercise is to get an access token using the authorization code flow and PKCE. This exercise will walk you through the flow manually without writing any code. You are of course free to write code to do this instead if you’d like, but the instructions here will show you the step by step process of what’s happening under the hood.
+
+![applications](https://user-images.githubusercontent.com/83961643/177586556-b43f57d5-0d3f-45c5-83f5-cad1161279cf.jpeg)
 
 
 
