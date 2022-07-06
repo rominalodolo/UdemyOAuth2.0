@@ -7,6 +7,8 @@
 # Section 1:
 - History of OAuth:
 
+
+
 - How Oauth improves application security 
 
 
@@ -23,6 +25,8 @@ OAuth is used for authorization, OpenID is used for authentication.
 
 
 Quiz 1
+
+1. Is there ever a reason to enter your Google password in a third party app?
 
 # Section 2: 
 
