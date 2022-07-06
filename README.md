@@ -11,7 +11,10 @@
 
 
 - OAuth vs OpenId Connect 
-OpenID is used for authentication while OAuth is used for authorization
+
+OAuth is Accessing APIs vs OpenId which is Identifying Users.
+OAuth is used for authorization, OpenID is used for authentication.
+
 ![oauth2](https://user-images.githubusercontent.com/83961643/177513410-1362b4c5-bea6-4cf9-b296-6e1718ccd298.jpg)
 
 ![OAuth And OpenID Connect Core Concepts6](https://user-images.githubusercontent.com/83961643/177513621-0a2b0c99-091e-436a-b20c-60d65bb1d323.png)
