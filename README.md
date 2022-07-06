@@ -90,6 +90,9 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 
 <img width="888" alt="2022-01-31_23-33-45" src="https://user-images.githubusercontent.com/83961643/177543848-87414fd2-5f80-4c27-a7a1-963d5971ed9c.png">
 
+![consent-dialog](https://user-images.githubusercontent.com/83961643/177544354-37eaa836-b8c9-4531-8bd3-a4b8db41a1bc.png)
+
+
 
 - Front Channel vs Back Channel 
 
