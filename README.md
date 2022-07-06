@@ -99,6 +99,8 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 > 
 > back channel:  normal/ secure, HTTPS client to serever connection (certification, encription, trusted)
 > 
+> Backend request with java is done with ajax or fetch 
+> 
 > front channel: using address bar to transfer data (uncertainty)
 
 
