@@ -4,7 +4,7 @@
 
 
 
-# Section 1:
+## Section 1:
 - History of OAuth:
 
 "OAuth started around November 2006, while Blaine Cook was working on the Twitter OpenID implementation. He got in touch with Chris Messina looking for a way to use OpenID together with the Twitter API to delegate authentication. They met with David Recordon, Larry Halff, and others at a CitizenSpace OpenID meeting to discuss existing solutions. Larry was looking into integrating OpenID for Ma.gnolia Dashboard Widgets. After reviewing existing OpenID functionality, as well as other industry practices, they came to the conclusion that there was no open standard for API access delegation. The conversation continued online and off for a few months.
@@ -58,7 +58,7 @@ TRUE - This is the exact thing OAuth was created to solve. This is also called d
 FALSE - Just like a hotel key, the application using the access token doesn’t need to know anything about how it works. Applications should just use the access token in an API request and let the API figure out if it’s valid.
 
 
-# Section 2: 
+## Section 2: API Security Concepts 
 
 - Roles in OAuth 
 1. The User - the resource owner 
@@ -77,3 +77,28 @@ FALSE - Just like a hotel key, the application using the access token doesn’t 
 
 
 Quiz 2 
+
+
+## Section 3: OAuth Clients
+
+
+## Section 4 
+
+
+## Section 5 
+
+
+## Section 16: Conclusion 
+
+OAuth 2.1 (More modern version)
+- Authorization Code + PKCE 
+- Client Credentials 
+- Tokens in HTTP Header 
+- Tokens in POST Form Body  
+
+New developments coming up. 
+
+Additional Recources: [EBook](https://oauth2simplified.com) 
+[Playground](https://www.oauth.com/playground/)
+
+Last Edit July 2022
