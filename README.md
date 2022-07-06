@@ -39,7 +39,14 @@ FALSE - OAuth was created as a delegated authorization protocol. It has been ext
 4. True or false: OAuth provides the application with the identity of the user signing in
 FALSE - In order to learn the user’s identity, applications need to use OpenID Connect or a custom API of the OAuth service.
 
-5. 
+5. True or false: OpenID Connect provides the application with the identity of the user signing in
+TRUE - OAuth only provides the application with an access token. OpenID Connect was created as an extension of OAuth in order to provide the application with the user’s identity information.
+
+6. True or false: OAuth provides a way for an application to get an access token to make API requests
+TRUE - This is the exact thing OAuth was created to solve. This is also called delegated authorization.
+
+7. True or False: Applications need to be able to parse access tokens to be able to use them 
+FALSE - Just like a hotel key, the application using the access token doesn’t need to know anything about how it works. Applications should just use the access token in an API request and let the API figure out if it’s valid.
 
 
 # Section 2: 
