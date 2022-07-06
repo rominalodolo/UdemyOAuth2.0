@@ -194,6 +194,8 @@ The user is using their browser to access the application which needs an access 
 
 [Reference](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)
 
+**Be careful of the Authorizaion injection code attack**
+"With a client secret and authorization code, a malicious application can effectively impersonate the original application for which the authorization code was issued." [Reference](https://www.f5.com/labs/articles/cisotociso/securing-apis-in-banking-with-oauth-and-pkce)
 
 ### Assignment 2
 
