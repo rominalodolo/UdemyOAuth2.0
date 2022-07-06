@@ -71,7 +71,15 @@ Authorization server - creates an access token which then is given to the app to
 API Gateway is always in the resource server 
 
 - Application Types
+Confidential & Public Clients 
 
+The difference between the two is the deployment credentials.
+
+Confidential applications can hold credentials in a secure way without exposing them to unauthorized parties. They require a trusted backend server to store the secret(s).
+
+Credentials cannot be securely stored in public applications.
+
+[Reference](https://medium.com/identity-beyond-borders/oauth-application-types-729764af73d5)
 
 - User Consent 
 
