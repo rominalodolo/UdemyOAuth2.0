@@ -192,7 +192,7 @@ The user is using their browser to access the application which needs an access 
 
 10. The API responds with requested data.
 
-(Reference)[https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow]
+[Reference](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)
 
 
 ### Assignment 2
