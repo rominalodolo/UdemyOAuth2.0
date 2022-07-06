@@ -109,7 +109,7 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 
 - Application Identity 
 
-PKCE (pronounced "pixy") is a security extension to OAuth 2.0 for public clients on mobile devices, designed to prevent interception of the authorisation code by a malicious application that has sneaked into the same device.
+PKCE (pronounced "pixy") is a security extension to OAuth 2.0 for public clients on mobile devices, designed to prevent interception of the authorisation code by a malicious application that has sneaked into the same device. [reference](https://connect2id.com/products/nimbus-oauth-openid-connect-sdk/examples/oauth/pkce)
 
 Quiz 2 
 
