@@ -152,7 +152,7 @@ Sending data by making the browser redirect - Using the browser’s address bar 
 ## Section 3: OAuth Clients
 The application thats getting and using access tokens to make API requests. 
 
-Assignment 1: 
+### Assignment 1: 
 Sign up at developer.okta.com then follow along with exercises.
 ![assignemt1](https://user-images.githubusercontent.com/83961643/177553316-5a419450-c5db-497e-ad31-6ef187b866d5.jpeg)
 ![saved](https://user-images.githubusercontent.com/83961643/177553320-6208790d-e093-4e01-be81-e61a1be87e8f.jpeg)
@@ -171,7 +171,7 @@ While the OAuth 2.0 spec doesn’t require you to collect any application inform
 
 
 
-Assignment 2
+### Assignment 2
 
 
 
@@ -182,6 +182,50 @@ Assignment 2
 
 
 ## Section 7: OAuth for the Internet of things 
+
+
+## Section 8: Client Credentials Flow 
+
+### Assignment 5: Getting an Access Token with the Client Credentials 
+
+
+# Section 9: Intrp to OpenID Connect 
+
+### Assignment 6
+
+
+## Section 10: Protecting an API with OAuth 
+OAuth doesn't care what format the access token is in. But the API doesn't know then how to read the information. 
+
+
+## Section 11: Access Token Types and their Tradeoffs 
+
+## Section 12: JWT Access Tokens 
+
+### Quiz 3
+
+## Section 13: Choosing Token Lifetimes 
+
+### Quiz 4: Lifetime 
+
+
+
+## Section 14: handeling revoked or Invalidated Tokens 
+
+### Assignment 8: Handeling revoked Tokens 
+
+
+
+## Section 15: Scopes
+"Scope is a mechanism in OAuth 2.0 to limit an application's access to a user's account. An application can request one or more scopes, this information is then presented to the user in the consent screen, and the access token issued to the application will be limited to the scopes granted.
+
+The OAuth spec allows the authorization server or user to modify the scopes granted to the application compared to what is requested, although there are not many examples of services doing this in practice.
+
+OAuth does not define any particular values for scopes, since it is highly dependent on the service's internal architecture and needs.
+Github, Slack, FitBit, Google are services that are an example of this." 
+[Reference](https://oauth.net/2/scope/)
+
+### Assignment 9: Enforce Scopes in your API
 
 
 
