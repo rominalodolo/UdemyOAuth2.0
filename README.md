@@ -66,6 +66,10 @@ FALSE - Just like a hotel key, the application using the access token doesn’t 
 3. The Application - oauth client 
 4. The API - where the data lives - resource server 
 
+Authorization server - creates an access token which then is given to the app to get the password. The app makes an api request but never sees the password. 
+
+API Gateway is always in the resource server 
+
 - Application Types
 
 
