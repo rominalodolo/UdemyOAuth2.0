@@ -85,7 +85,8 @@ Credentials cannot be securely stored in public applications.
 
 Concent screen being critical to the flow 
 
-Password grant - app sends prompt to user, user gives permisions ect 
+Password grant - app sends password prompt to user, user gives permisions and provides password then server provides an access token 
+
 
 <img width="888" alt="2022-01-31_23-33-45" src="https://user-images.githubusercontent.com/83961643/177543848-87414fd2-5f80-4c27-a7a1-963d5971ed9c.png">
 
