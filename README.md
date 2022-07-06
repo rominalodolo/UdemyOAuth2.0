@@ -153,9 +153,20 @@ Sending data by making the browser redirect - Using the browser’s address bar 
 The application thats getting and using access tokens to make API requests. 
 
 Assignment 1: 
-SIgn up at developer.okta.com then follow along with exercises 
+Sign up at developer.okta.com then follow along with exercises.
+![assignemt1](https://user-images.githubusercontent.com/83961643/177553316-5a419450-c5db-497e-ad31-6ef187b866d5.jpeg)
+![saved](https://user-images.githubusercontent.com/83961643/177553320-6208790d-e093-4e01-be81-e61a1be87e8f.jpeg)
+![uri](https://user-images.githubusercontent.com/83961643/177553326-c1d6b727-0593-4f09-b9e1-1c3e978e3ed5.jpeg)
+
 
 ## Section 4: OAuth for Server-side applications
+Registering an appliction 
+
+Authorization Code Flow for Web Applictions
+
+Assignment 2
+
+
 
 
 ## Section 5: OAuth for native applications
