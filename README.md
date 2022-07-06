@@ -189,7 +189,7 @@ While the OAuth 2.0 spec doesn’t require you to collect any application inform
 ### Assignment 5: Getting an Access Token with the Client Credentials 
 
 
-# Section 9: Intrp to OpenID Connect 
+## Section 9: Intrp to OpenID Connect 
 
 ### Assignment 6
 
@@ -199,6 +199,8 @@ OAuth doesn't care what format the access token is in. But the API doesn't know 
 
 
 ## Section 11: Access Token Types and their Tradeoffs 
+
+### Assignment 7: Protecting an API endpoint with access tokens 
 
 ## Section 12: JWT Access Tokens 
 
