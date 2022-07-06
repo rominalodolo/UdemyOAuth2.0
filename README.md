@@ -1,5 +1,5 @@
 # The Nuts and Bolts of OAuth 2.0
-> by Aaron Parecki
+> _by Aaron Parecki_
 > 
 > [Get the course](https://www.udemy.com/course/oauth-2-simplified/)
 
@@ -34,7 +34,7 @@ OAuth is used for authorization, OpenID is used for authentication.
 ![OAuth And OpenID Connect Core Concepts5](https://user-images.githubusercontent.com/83961643/177513691-b96a738a-2003-4a20-85f2-faf2d3def289.jpg)
 
 
-Quiz 1
+### Quiz 1
 
 1. Is there ever a reason to enter your Google password in a third party app?
 No, Google requires that all third-party and even first-party apps use OAuth and never accept passwords directly. This gives them the most security and most flexibility for adding new multifactor auth methods in the future as well.
@@ -109,9 +109,16 @@ Password grant - app sends password prompt to user, user gives permisions and pr
 
 - Application Identity 
 
+Authorization code flow 
+
 PKCE (pronounced "pixy") is a security extension to OAuth 2.0 for public clients on mobile devices, designed to prevent interception of the authorisation code by a malicious application that has sneaked into the same device. [reference](https://connect2id.com/products/nimbus-oauth-openid-connect-sdk/examples/oauth/pkce)
 
-Quiz 2 
+Redirect URI 
+
+
+### Quiz 2 
+
+1. 
 
 
 ## Section 3: OAuth Clients
@@ -128,6 +135,7 @@ Quiz 2
 ## Section 7: OAuth for the Internet of things 
 
 
+
 ## Section 16: Conclusion 
 
 OAuth 2.1 (More modern version)
@@ -141,4 +149,6 @@ New developments coming up.
 Additional Recources: [EBook](https://oauth2simplified.com) 
 [Playground](https://www.oauth.com/playground/)
 
-Last Edit July 2022
+
+
+## Last Edit July 2022
