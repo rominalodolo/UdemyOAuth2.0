@@ -149,9 +149,11 @@ A request from an HTTP client to an HTTP server - Any HTTP client that makes a r
 Sending data by making the browser redirect - Using the browser’s address bar to move data between two other pieces of software is using the front channel.
 
 
-
 ## Section 3: OAuth Clients
+The application thats getting and using access tokens to make API requests. 
 
+Assignment 1: 
+SIgn up at developer.okta.com then follow along with exercises 
 
 ## Section 4: OAuth for Server-side applications
 
