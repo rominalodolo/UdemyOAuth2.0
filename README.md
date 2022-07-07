@@ -216,6 +216,7 @@ The goal of this exercise is to get an access token using the authorization code
 
 ![URL404page](https://user-images.githubusercontent.com/83961643/177736211-46299c29-2e3c-4d55-9d89-3cd5d09f22a7.jpeg)
 ![404help](https://user-images.githubusercontent.com/83961643/177736215-961f57e5-40bd-4239-85c7-df7bbae530b3.jpeg)
+After clearing cookies and restating I still have the same 404 error. 
 
 ## Section 5: OAuth for native applications
 Mobile apps: Redirect URL 
