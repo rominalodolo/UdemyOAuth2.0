@@ -218,6 +218,31 @@ The goal of this exercise is to get an access token using the authorization code
 ![404help](https://user-images.githubusercontent.com/83961643/177736215-961f57e5-40bd-4239-85c7-df7bbae530b3.jpeg)
 
 ## Section 5: OAuth for native applications
+Mobile apps: Redirect URL 
+
+Claiming URL patterns etc
+
+Custom URL Scheme:
+Register a custom URL scheme that will launch the app when a URL with that scheme is visited from the system browser.
+
+The native app starts the OAuth flow as normal, by launching the system browser with the standard authorization code parameters. The only difference is that the redirect URL will be a URL with the app’s custom scheme.
+
+When the authorization server sends the Location header intending to redirect the user to myapp://callback#token=...., the phone will launch the application and the app will be able to resume the authorization process, parsing the access token from the URL and storing it internally.
+
+Custom URL Scheme Namespaces:
+Choose URL schemes that won’t conflict with other apps.
+
+Your service can help by requiring the URL scheme to follow a certain pattern, and only allow the developer to register a custom scheme that matches that pattern.
+
+Example; Facebook generates a URL scheme for every app based on the app’s client ID. 
+fb00000000:// where the numbers correspond to the app’s client ID. This provides a reasonably sure method of generating globally unique URL schemes, since other apps are unlikely to use a URL scheme with this pattern.
+
+Or reverse domain name pattern with a domain that is under the control of the app’s publisher, resulting in a URL scheme of com.example.myapp for example. It's something that can be enforced by the service.
+[Reference](https://www.oauth.com/oauth2-servers/redirect-uris/redirect-uris-native-apps/)
+
+
+
+### Assignment 3
 
 ## Section 6: OAuth for singlepage applications
 
