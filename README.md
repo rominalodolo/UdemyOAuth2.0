@@ -247,6 +247,8 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 
 ## Section 6: OAuth for singlepage applications
 
+Javascript is seen as a public client becuase you can't store your API key in the code. You can't hide it becuase it could be reversed engineered. You can do an OAuth flow with PKCE code. Be careful of cross site scripting attacks. 
+
 
 ## Section 7: OAuth for the Internet of things 
 
