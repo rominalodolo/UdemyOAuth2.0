@@ -204,8 +204,18 @@ The user is using their browser to access the application which needs an access 
 The goal of this exercise is to get an access token using the authorization code flow and PKCE. This exercise will walk you through the flow manually without writing any code. You are of course free to write code to do this instead if you’d like, but the instructions here will show you the step by step process of what’s happening under the hood.
 
 ![applications](https://user-images.githubusercontent.com/83961643/177586556-b43f57d5-0d3f-45c5-83f5-cad1161279cf.jpeg)
+![create](https://user-images.githubusercontent.com/83961643/177735875-16155fed-9af8-4f66-9c46-77bc56b250e6.jpeg)
+![uri](https://user-images.githubusercontent.com/83961643/177735913-c4baafc6-545d-41bf-9780-ea8c78a1ddd7.jpeg)
 
+![alloweveryone](https://user-images.githubusercontent.com/83961643/177735938-01c4e2cb-be77-4f71-a377-4ebd90972b31.jpeg)
 
+![secrets](https://user-images.githubusercontent.com/83961643/177736036-4188fb00-43a3-41d4-91ef-77244eacb147.jpeg)
+
+![paste](https://user-images.githubusercontent.com/83961643/177736061-286db73f-d8c3-47f6-aa87-7bed2a796069.jpeg)
+![setup](https://user-images.githubusercontent.com/83961643/177736182-95eb4ce8-85bc-4774-962c-5f45a1a584e1.jpeg)
+
+![URL404page](https://user-images.githubusercontent.com/83961643/177736211-46299c29-2e3c-4d55-9d89-3cd5d09f22a7.jpeg)
+![404help](https://user-images.githubusercontent.com/83961643/177736215-961f57e5-40bd-4239-85c7-df7bbae530b3.jpeg)
 
 ## Section 5: OAuth for native applications
 
