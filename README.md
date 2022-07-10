@@ -217,6 +217,14 @@ The goal of this exercise is to get an access token using the authorization code
 ![URL404page](https://user-images.githubusercontent.com/83961643/177736211-46299c29-2e3c-4d55-9d89-3cd5d09f22a7.jpeg)
 ![404help](https://user-images.githubusercontent.com/83961643/177736215-961f57e5-40bd-4239-85c7-df7bbae530b3.jpeg)
 After clearing cookies and restating I still have the same 404 error. 
+My issue was the link I had inserted - I needed to use 
+
+![tanksE](https://user-images.githubusercontent.com/83961643/178148028-5488f636-f68a-4666-9cdf-bbaeac580add.jpeg)
+![signin ](https://user-images.githubusercontent.com/83961643/178147991-5d535f9a-d81b-4324-9ac3-4f6f22ef308c.jpeg)
+![smieface](https://user-images.githubusercontent.com/83961643/178147996-49126963-26f1-48d5-b1d9-5a402994c273.jpeg)
+![token](https://user-images.githubusercontent.com/83961643/178148000-19bc2699-db69-489f-9cfd-dfdae3b3c407.jpeg)
+![done](https://user-images.githubusercontent.com/83961643/178148005-663a894d-81a7-40b6-a2cd-0c7b2c04e4ea.jpeg)
+
 
 ## Section 5: OAuth for native applications
 Mobile apps: Redirect URL 
