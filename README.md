@@ -261,6 +261,10 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 ![abbriviations](https://user-images.githubusercontent.com/83961643/177976179-0a9ac627-1721-4abf-9d96-e8fbc388a431.jpeg)
 [Reference](https://datatracker.ietf.org/doc/html/rfc7636)
 
+![codeflow](https://user-images.githubusercontent.com/83961643/178147875-4ef34b74-4707-4250-9375-a87c12e5e14b.png)
+![codeflow2](https://user-images.githubusercontent.com/83961643/178147884-d3801d9f-67c5-4916-9b7c-af3f474a92a4.png)
+
+
 ### Assignment 3
 
 ## Section 6: OAuth for singlepage applications
