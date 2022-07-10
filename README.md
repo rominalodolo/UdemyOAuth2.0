@@ -332,7 +332,10 @@ But even better is don't even give tokens to javascript apps. This is how:
 ## Section 7: OAuth for the Internet of things 
 
 Limitations of ioT(internet of things) like apple tv and smartphone devices 
+if the browser/keyboard is not on the device then there is an issue with the previous situations encountered. 
 
+The device flow: 
+There is a pop up (a URL and a code to go enter at that url) that tells you to type in a code that is sent to another device. Doesn't need your device to connect to your phone but only needs the oAuth. 
 
 ## Section 8: Client Credentials Flow 
 
