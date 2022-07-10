@@ -258,6 +258,7 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 
 ![codeflow](https://user-images.githubusercontent.com/83961643/178147875-4ef34b74-4707-4250-9375-a87c12e5e14b.png)
 ![codeflow2](https://user-images.githubusercontent.com/83961643/178147884-d3801d9f-67c5-4916-9b7c-af3f474a92a4.png)
+![Code flow native apps](https://user-images.githubusercontent.com/83961643/178160919-443d799e-e86b-4068-b0b8-3495355467cb.png)
 
 
 ### Assignment 3
@@ -292,7 +293,18 @@ Javascript is seen as a public client becuase you can't store your API key in th
 
 Have a strong content security policy. 
 
-Hotlinking javascripts are potentioal risks. Try to avoid. 
+Hotlinking javascripts are potentioal risks. Try to avoid. User could have extensions in their browser that could gain access, so you need to plan for all these kinds of breaches. 
+
+Authorization code flow: 
+The flow starts out with the user clicking the login button 
+EG : User says, "I would like to use this application."
+Before the app redirects the user, it first makes up a new secret for this particular flow. **This is not a client secret.** This is a random string the app generates and it has to be different every time itstarts a flow. This is called the PKCE code verifier. It holds on to that code verifier in the browser, usually by storing it in LocalStorage or SessionStorage and then it calculates a hash of it called the code challenge.
+
+Hash = a one way operation.
+
+If somebody knows the hash value, they can't reverse engineer it and figure out the secret. It takes that hash and includes it in the URL that it goes and builds, which tells the browser to go over to the OAuth server. The app redirects the user to the server with a bunch of stuff in the query string, including that hash, the client ID, the redirect URL, and scope. The user ends up at the server delivering the message the app sent."
+![Code flow single page apps](https://user-images.githubusercontent.com/83961643/178160927-cd6d6024-4687-4b7e-8e1e-8bda4cd1f845.png)
+
 
 ### Assignment 4:
 
