@@ -257,7 +257,6 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 [Reference](https://datatracker.ietf.org/doc/html/rfc7636)
 
 ![codeflow](https://user-images.githubusercontent.com/83961643/178147875-4ef34b74-4707-4250-9375-a87c12e5e14b.png)
-![codeflow2](https://user-images.githubusercontent.com/83961643/178147884-d3801d9f-67c5-4916-9b7c-af3f474a92a4.png)
 ![Code flow native apps](https://user-images.githubusercontent.com/83961643/178160919-443d799e-e86b-4068-b0b8-3495355467cb.png)
 
 
