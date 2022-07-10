@@ -217,7 +217,7 @@ The goal of this exercise is to get an access token using the authorization code
 ![URL404page](https://user-images.githubusercontent.com/83961643/177736211-46299c29-2e3c-4d55-9d89-3cd5d09f22a7.jpeg)
 ![404help](https://user-images.githubusercontent.com/83961643/177736215-961f57e5-40bd-4239-85c7-df7bbae530b3.jpeg)
 After clearing cookies and restating I still have the same 404 error. 
-My issue was the link I had inserted - I needed to use 
+My issue was the link I had inserted - I needed to use the example link when I used my URL link. 
 
 ![tanksE](https://user-images.githubusercontent.com/83961643/178148028-5488f636-f68a-4666-9cdf-bbaeac580add.jpeg)
 ![signin ](https://user-images.githubusercontent.com/83961643/178147991-5d535f9a-d81b-4324-9ac3-4f6f22ef308c.jpeg)
@@ -251,20 +251,6 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 
 
 ![hoauth-flow](https://user-images.githubusercontent.com/83961643/177975914-ec770241-4dc1-408e-b96c-a4f50ea90acf.png)
-![codeflow](https://user-images.githubusercontent.com/83961643/177975978-18558dab-101c-4b92-a838-b5df2d01780a.jpeg)
-
-
-![generates](https://user-images.githubusercontent.com/83961643/177976023-75428178-4dd9-4667-900a-4c1fd04fa341.jpeg)
-![mobileappspecific](https://user-images.githubusercontent.com/83961643/177976035-abdda5d1-70bc-4e80-8ffe-fda5221f8049.jpeg)
-![webgeneratescode](https://user-images.githubusercontent.com/83961643/177976047-b4a92d71-b7a5-41e2-b9ad-e5d741b20b94.jpeg)
-
-![laststep](https://user-images.githubusercontent.com/83961643/177976097-f29066be-d2ec-40ab-9c45-9f983244facf.jpeg)
-
-![behindthescenseofgeneratingtoken](https://user-images.githubusercontent.com/83961643/177976121-450b7552-a87f-44bb-a3c6-40e50a367d7d.jpeg)
-![NoclientSecretForMobile](https://user-images.githubusercontent.com/83961643/177976134-9d861b7a-cfba-4e93-b637-f45242fd56ef.jpeg)
-
-![proofkey](https://user-images.githubusercontent.com/83961643/177976159-797da118-7750-409d-a0b1-71e7f1e882dd.jpeg)
-
 
 ![abbriviations](https://user-images.githubusercontent.com/83961643/177976179-0a9ac627-1721-4abf-9d96-e8fbc388a431.jpeg)
 [Reference](https://datatracker.ietf.org/doc/html/rfc7636)
