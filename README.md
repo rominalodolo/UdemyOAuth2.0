@@ -274,6 +274,11 @@ Under Sign-in redirect URIs, replace the default value with https://example-app.
 
 ![uri](https://user-images.githubusercontent.com/83961643/178151552-4386dc68-b9a1-42db-968c-7ad6e2c7d974.jpeg)
 
+![wroks](https://user-images.githubusercontent.com/83961643/178151715-8044266d-9e63-4ce6-8dd9-fa9f64946333.jpeg)
+![get](https://user-images.githubusercontent.com/83961643/178151740-c9ea5af4-6080-44d2-981f-ab6133453132.jpeg)
+![didt](https://user-images.githubusercontent.com/83961643/178151775-72f03f7f-4e07-41a9-9e77-07d895112702.jpeg)
+
+
 
 
 ## Section 6: OAuth for singlepage applications
