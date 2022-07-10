@@ -304,11 +304,34 @@ Hash = a one way operation.
 If somebody knows the hash value, they can't reverse engineer it and figure out the secret. It takes that hash and includes it in the URL that it goes and builds, which tells the browser to go over to the OAuth server. The app redirects the user to the server with a bunch of stuff in the query string, including that hash, the client ID, the redirect URL, and scope. The user ends up at the server delivering the message the app sent."
 ![Code flow single page apps](https://user-images.githubusercontent.com/83961643/178160927-cd6d6024-4687-4b7e-8e1e-8bda4cd1f845.png)
 
+Javascript storing: 
+- LocalStorage: local api, will last even when browser is closed, each tab stores data
+- SessionStorage: data stored only while windows are open, every tab gets new data
+- Cookies
+
+Possibily keep tokens in memory or store tokens in a service worker.
+
+But even better is don't even give tokens to javascript apps. This is how: 
+- Dynamic backend server
+- HttpOnly 
+
 
 ### Assignment 4:
+![new](https://user-images.githubusercontent.com/83961643/178161583-7c13d199-20bc-4ea5-9864-31b08a4e524f.jpeg)
+![page](https://user-images.githubusercontent.com/83961643/178161751-98acda7c-4134-4bea-be79-3017ae730d07.jpeg)
 
+![assi](https://user-images.githubusercontent.com/83961643/178161989-d8b7fcce-98de-4c4f-aa35-f6bf388b6bc5.jpeg)
+![works](https://user-images.githubusercontent.com/83961643/178161984-0708cd8d-fcfe-44d5-b1c3-f4cc458f15d9.jpeg)
+
+![yay](https://user-images.githubusercontent.com/83961643/178162191-bd09e313-fe1b-40f2-ba3b-ed148e7b6d53.jpeg)
+![done](https://user-images.githubusercontent.com/83961643/178162193-6b062b20-83db-43c5-ad5f-aea98354e842.jpeg)
+
+![pkce](https://user-images.githubusercontent.com/83961643/178162196-f8ac7a1e-ea71-4fc9-8830-a891233a2345.jpeg)
+![term](https://user-images.githubusercontent.com/83961643/178162207-6d70db2e-bf02-4a8d-a705-e20d8782ca15.jpeg)
 
 ## Section 7: OAuth for the Internet of things 
+
+Limitations of ioT(internet of things) like apple tv and smartphone devices 
 
 
 ## Section 8: Client Credentials Flow 
