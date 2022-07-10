@@ -268,6 +268,13 @@ Go into your applications - click applications
 ![applications ](https://user-images.githubusercontent.com/83961643/178151422-b27adf6b-f1bf-43d1-ba52-50a7bf2d03e7.jpeg)
 ![method](https://user-images.githubusercontent.com/83961643/178151428-55f4e7d0-1ad9-448b-8982-5809dbb6fed8.jpeg)
 
+![new](https://user-images.githubusercontent.com/83961643/178151517-3ab7441b-1e83-49bd-afd2-09503ea13f8b.jpeg)
+
+Under Sign-in redirect URIs, replace the default value with https://example-app.com/redirect as the redirect URI for your application
+
+![uri](https://user-images.githubusercontent.com/83961643/178151552-4386dc68-b9a1-42db-968c-7ad6e2c7d974.jpeg)
+
+
 
 ## Section 6: OAuth for singlepage applications
 
