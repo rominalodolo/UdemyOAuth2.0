@@ -262,6 +262,13 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 
 ### Assignment 3
 
+Similar process to Assignment 2 but for native apps. 
+
+Go into your applications - click applications 
+![applications ](https://user-images.githubusercontent.com/83961643/178151422-b27adf6b-f1bf-43d1-ba52-50a7bf2d03e7.jpeg)
+![method](https://user-images.githubusercontent.com/83961643/178151428-55f4e7d0-1ad9-448b-8982-5809dbb6fed8.jpeg)
+
+
 ## Section 6: OAuth for singlepage applications
 
 Javascript is seen as a public client becuase you can't store your API key in the code. You can't hide it becuase it could be reversed engineered. You can do an OAuth flow with PKCE code. Be careful of cross site scripting attacks. Known as XSS. 
