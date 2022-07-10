@@ -342,7 +342,17 @@ There is a pop up (a URL and a code to go enter at that url) that tells you to t
 
 ## Section 8: Client Credentials Flow 
 
+Client credentials grant = no user/ browse involved
+
+>> Getting a token without a user 
+>> 
+>> Only machine-to-machine.
+
 ### Assignment 5: Getting an Access Token with the Client Credentials 
+![new](https://user-images.githubusercontent.com/83961643/178162694-2d63ebb1-20cc-4ca2-9247-31fe8d09f760.jpeg)
+![app](https://user-images.githubusercontent.com/83961643/178162721-290b2280-b3e4-428b-b124-886248f15333.jpeg)
+![term](https://user-images.githubusercontent.com/83961643/178162849-2e5bfa12-5093-45ea-9977-db29bb39574a.jpeg)
+![done](https://user-images.githubusercontent.com/83961643/178162853-35f66ef5-0be9-43b7-b2e0-6a0c56c4d983.jpeg)
 
 
 ## Section 9: Intrp to OpenID Connect 
