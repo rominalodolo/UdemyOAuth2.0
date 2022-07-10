@@ -280,11 +280,21 @@ Under Sign-in redirect URIs, replace the default value with https://example-app.
 
 ![bash1](https://user-images.githubusercontent.com/83961643/178152279-b0e2a234-e8fa-4a4e-8a46-249a95da2882.jpeg)
 
+![gra](https://user-images.githubusercontent.com/83961643/178157789-f7770a65-f326-4b8a-be1e-fd315f9ad595.jpeg)
+![success](https://user-images.githubusercontent.com/83961643/178157793-5f1edaa4-94fd-42c9-b865-73a1855a274a.jpeg)
+![bashih](https://user-images.githubusercontent.com/83961643/178157832-a9005614-9166-48c7-9dc8-e98f75ec95ed.jpeg)
+![native](https://user-images.githubusercontent.com/83961643/178157838-cdbb6be1-355f-446e-af0d-d5a3dc16fe00.jpeg)
 
 
 ## Section 6: OAuth for singlepage applications
 
 Javascript is seen as a public client becuase you can't store your API key in the code. You can't hide it becuase it could be reversed engineered. You can do an OAuth flow with PKCE code. Be careful of cross site scripting attacks. Known as XSS. 
+
+Have a strong content security policy. 
+
+Hotlinking javascripts are potentioal risks. Try to avoid. 
+
+### Assignment 4:
 
 
 ## Section 7: OAuth for the Internet of things 
