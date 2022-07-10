@@ -252,6 +252,7 @@ Or reverse domain name pattern with a domain that is under the control of the ap
 
 ![hoauth-flow](https://user-images.githubusercontent.com/83961643/177975914-ec770241-4dc1-408e-b96c-a4f50ea90acf.png)
 
+
 ![abbriviations](https://user-images.githubusercontent.com/83961643/177976179-0a9ac627-1721-4abf-9d96-e8fbc388a431.jpeg)
 [Reference](https://datatracker.ietf.org/doc/html/rfc7636)
 
