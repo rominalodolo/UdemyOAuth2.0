@@ -336,6 +336,9 @@ if the browser/keyboard is not on the device then there is an issue with the pre
 
 The device flow: 
 There is a pop up (a URL and a code to go enter at that url) that tells you to type in a code that is sent to another device. Doesn't need your device to connect to your phone but only needs the oAuth. 
+![api](https://user-images.githubusercontent.com/83961643/178162479-9e5e5f80-2315-4482-9961-edb56b39573f.jpeg)
+![saqava](https://user-images.githubusercontent.com/83961643/178162531-67e8d6f6-b0c7-498c-b35b-416a9c724fb0.jpeg)
+
 
 ## Section 8: Client Credentials Flow 
 
