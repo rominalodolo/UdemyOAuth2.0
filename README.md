@@ -278,6 +278,7 @@ Under Sign-in redirect URIs, replace the default value with https://example-app.
 ![get](https://user-images.githubusercontent.com/83961643/178151740-c9ea5af4-6080-44d2-981f-ab6133453132.jpeg)
 ![didt](https://user-images.githubusercontent.com/83961643/178151775-72f03f7f-4e07-41a9-9e77-07d895112702.jpeg)
 
+![bash1](https://user-images.githubusercontent.com/83961643/178152279-b0e2a234-e8fa-4a4e-8a46-249a95da2882.jpeg)
 
 
 
