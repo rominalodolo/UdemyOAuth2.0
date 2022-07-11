@@ -571,7 +571,8 @@ Reasons why and access toekn may become invalid
 - Immediate changes in the token system rolled out by the devs  
 
 The problem with local validation 
-- 
+- local validations can't live inside the token 
+- you won't know if a token has been revoked for other reasons 
 
 
 ### Assignment 8: Handeling revoked Tokens 
