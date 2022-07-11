@@ -400,6 +400,7 @@ Step 3: If the token is stored and comes from somewhere else then it needs to be
 
 ![yay](https://user-images.githubusercontent.com/83961643/178221147-00471ea5-ac51-4205-8c9b-2fd352b0fa91.jpeg)
 
+You don’t need to verify the JWT signature of the ID token: because when you get the ID token over the back channel, you already know it’s valid and where it came from, so checking the JWT signature doesn’t give you any new information and is unnecessary.
 
 ## Section 10: Protecting an API with OAuth 
 OAuth doesn't care what format the access token is in. But the API doesn't know then how to read the information. 
