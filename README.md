@@ -446,6 +446,9 @@ _Cons_
 ![def](https://user-images.githubusercontent.com/83961643/178234020-329af054-f47f-4833-9b45-6aad7213b33d.jpeg)
 ![qefac](https://user-images.githubusercontent.com/83961643/178234456-f97f9ee0-6aca-4c85-9139-2035a241ae94.jpeg)
 
+[Reference](https://auth0.com/docs/secure/tokens/access-tokens/get-access-tokens)
+![test](https://user-images.githubusercontent.com/83961643/178236940-6c9b3799-15dd-4ec1-aaa5-55c601b5fa80.jpeg)
+
 
 ## Section 12: JWT Access Tokens 
 
