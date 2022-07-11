@@ -355,7 +355,15 @@ Client credentials grant = no user/ browse involved
 ![done](https://user-images.githubusercontent.com/83961643/178162853-35f66ef5-0be9-43b7-b2e0-6a0c56c4d983.jpeg)
 
 
-## Section 9: Intrp to OpenID Connect 
+## Section 9: OpenID Connect 
+
+OpenID connect is an extension of OAuth. 
+Main goal is to communicate information about users to applications. OAuth is maining applications accessing Apis, OpenID connect learns info about users. 
+
+ID Token - They are always JWT (JSON Web Tokens)
+![jwt](https://user-images.githubusercontent.com/83961643/178207673-cf48c120-6335-4efe-b274-f26594d84f2a.jpeg)
+
+
 
 ### Assignment 6
 
