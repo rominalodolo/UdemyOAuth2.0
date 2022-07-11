@@ -368,6 +368,19 @@ The difference between an ID Token and an Access Token
 They are very different so do not get confused - they are not even remotly the same. 
 ![diff](https://user-images.githubusercontent.com/83961643/178208601-d8d8705c-44d3-4b47-b79e-74e0cc23e2dc.jpeg)
 
+They have different audiences. 
+
+How to obtain an ID Token: 
+- scope=openid
+- response_type=id_token
+
+Hybrid Flows: Combinations of response types 
+- response_type=code+id_token
+- response_type=token+id_token 
+
+Dont use these response type tokens to avoid leakage in front channel. 
+![ignore](https://user-images.githubusercontent.com/83961643/178210550-724eab38-5f47-4d25-b7a2-ca323a8c6896.jpeg)
+
 
 ### Assignment 6
 
