@@ -394,6 +394,7 @@ Step 3: If the token is stored and comes from somewhere else then it needs to be
 
 ![sg](https://user-images.githubusercontent.com/83961643/178216415-c10695d6-74a6-4d00-a932-19d3d72c1052.jpeg)
 ![decode](https://user-images.githubusercontent.com/83961643/178216510-ee4debf7-d4bf-49df-abf3-7207b6e3fb87.jpeg)
+![ergd](https://user-images.githubusercontent.com/83961643/178217363-ddc2dc87-4ea4-42f6-8f92-1724980c432d.jpeg)
 
 
 ## Section 10: Protecting an API with OAuth 
