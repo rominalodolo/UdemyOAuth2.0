@@ -51,3 +51,19 @@ https://dev-41151911.okta.com/oauth2/default/v1/authorize?
     redirect_uri=https://example-app.com/redirect&
     code_challenge=7ubwW0C-VgnWFUeAO0jTC1qlUalmDq9zYtnr8LWLeq0&
     code_challenge_method=S256
+
+// OpenID connect 
+https://dev-41151911.okta.com/oauth2/default/v1/authorize?
+  response_type=code&
+  scope=openid+profile+email&
+  client_id=0oa5qe66t2cCIwfYE5d7&
+  state=RominaIsQueen&
+  redirect_uri=https://example-app.com/redirect&
+  code_challenge=p41AUcNq6ZuXpfMHCc0Daf6XAoaECdZRZE8yOCPdTLs&
+  code_challenge_method=S256
+
+// API
+client ID 0oa5qj3un5aoXRdYs5d7
+Client secret 2_KM-USzvEBlHSPIJo-jgh6fWAl8RmLBmImNOKnj
+
+

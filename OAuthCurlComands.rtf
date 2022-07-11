@@ -7,67 +7,67 @@
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid101\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
 {\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid201\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
-{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid301\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid301\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid401\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww15700\viewh8400\viewkind0
 \deftab720
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
 \ls1\ilvl0
 \f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \
+\
 First OAuth App\
-curl -X POST https:\cf4 \strokec4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \strokec2 \
+curl -X POST https:\cf4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \
 \ls1\ilvl0\cb3 -d grant_type=authorization_code \\\
--d redirect_uri=https:\cf4 \strokec4 //example-app.com/redirect \\\cf2 \cb1 \strokec2 \
+-d redirect_uri=https:\cf4 //example-app.com/redirect \\\cf2 \cb1 \
 \ls1\ilvl0\cb3 -d client_id=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 0oa5ovohlnINxmmmV5d7 
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 0oa5ovohlnINxmmmV5d7 
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\
+ \\\
 -d client_secret=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 MOvYCzYLUEtN9-XShC4hjqe6egMbZ-8oedaTR3PS 
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 MOvYCzYLUEtN9-XShC4hjqe6egMbZ-8oedaTR3PS 
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\cb1 \
+ \\\cb1 \
 \ls1\ilvl0\cb3 -d code_verifier=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 12c7c8878574cce9e0ea3b143dcd4227cbf917d5f5be29a160214ec7
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 12c7c8878574cce9e0ea3b143dcd4227cbf917d5f5be29a160214ec7
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\
+ \\\
 -d code=RXNESeMfG9CD89w4x-tN8WbCXcQq-El8gtEue01I4Dg\cb1 \
 \
 \
 Native App\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls2\ilvl0\cf2 \cb3 curl -X POST https:\cf4 \strokec4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \strokec2 \
+\ls2\ilvl0\cf2 \cb3 curl -X POST https:\cf4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \
 \ls2\ilvl0\cb3 -d grant_type=authorization_code \\\
--d redirect_uri=https:\cf4 \strokec4 //example-app.com/redirect \\\cf2 \cb1 \strokec2 \
+-d redirect_uri=https:\cf4 //example-app.com/redirect \\\cf2 \cb1 \
 \ls2\ilvl0\cb3 -d client_id=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 0oa5qbx3fhz5dvhh45d7
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 0oa5qbx3fhz5dvhh45d7
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\
+ \\\
 -d code_verifier=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 12c7c8878574cce9e0ea3b143dcd4227cbf917d5f5be29a160214ec7
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 12c7c8878574cce9e0ea3b143dcd4227cbf917d5f5be29a160214ec7
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\cb1 \
+ \\\cb1 \
 \ls2\ilvl0\cb3 -d code=RhAnN4u1v5fFimFdZadGPUPSwsTnikOKAEGL1OEVHoI\
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls3\ilvl0\cf2 curl -X POST https:\cf4 \strokec4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \strokec2 \
+\ls3\ilvl0\cf2 curl -X POST https:\cf4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \
 \ls3\ilvl0\cb3 -d grant_type=refresh_token \\\
 -d client_id=
-\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 0oa5qbx3fhz5dvhh45d7
+\f1 \cf5 \cb1 \kerning1\expnd0\expndtw0 0oa5qbx3fhz5dvhh45d7
 \f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2  \\\cb1 \
+ \\\cb1 \
 \ls3\ilvl0\cb3 -d refresh_token=
-\fs22 \cf6 \cb7 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 bfUYutKnbU3zniP67JIoQNteISO-HU_HC8w4RY2uKgI\
+\fs22 \cf6 \cb7 \kerning1\expnd0\expndtw0 \CocoaLigature0 bfUYutKnbU3zniP67JIoQNteISO-HU_HC8w4RY2uKgI\
 \
 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
-\ls3\ilvl0Single Page APP\
+Single Page APP\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
 \ls4\ilvl0
 \fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \outl0\strokewidth0 \strokec2 curl -X POST https:\cf4 \strokec4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \strokec2 \
+\CocoaLigature1 curl -X POST https:\cf4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \
 \ls4\ilvl0\cb3 -d grant_type=authorization_code \\\
--d redirect_uri=https:\cf4 \strokec4 //example-app.com/redirect \\\cf2 \cb1 \strokec2 \
+-d redirect_uri=https:\cf4 //example-app.com/redirect \\\cf2 \cb1 \
 \ls4\ilvl0\cb3 -d client_id=0oa5qe66t2cCIwfYE5d7 \\\
 -d code_verifier=8e5b964c7538665c9dd9a4d06e5900fc498fb12d10c53e3054ce67b8 \\\cb1 \
 \ls4\ilvl0\cb3 -d code=jSFxn72QYFdQzSLEiBcXYAdxLVyV8LDGy00B-hz6aXk\
@@ -81,4 +81,38 @@ curl -X POST https://dev-41151911.okta.com/oauth2/default/v1/token \\\
   -d scope=firstOAUTHScope\
 \
 \
-}
+OpenID Connect \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls5\ilvl0\cf2 curl -X POST https:\cf4 //dev-41151911.okta.com/oauth2/default/v1/token \\\cf2 \cb1 \
+\ls5\ilvl0\cb3 -d grant_type=authorization_code \\\
+-d redirect_uri=https:\cf4 //example-app.com/redirect \\\cf2 \cb1 \
+\ls5\ilvl0\cb3 -d client_id=0oa5ovohlnINxmmmV5d7 \\\
+-d client_secret=MOvYCzYLUEtN9-XShC4hjqe6egMbZ-8oedaTR3PS \\\cb1 \
+\ls5\ilvl0\cb3 -d code_verifier=6cf48b8b0c9be3c0acb7d108e21d877f6d6417d9189a8017a254c3fd \\\
+-d code=VYuqzsYV_nPyoKWIvotVZwQyLNXoemkLgi0kg_OYe8c\cb1 \
+\
+\
+API \
+curl https://dev-41151911.okta.com/oauth2/default/v1/introspect \\\
+  -d client_id=0oa5qj3un5aoXRdYs5d7 \\\
+  -d client_secret=2_KM-USzvEBlHSPIJo-jgh6fWAl8RmLBmImNOKnj \\\
+  -d token=\{eyJraWQiOiJBS09USTczUVpqVENVQmhyRFV1Y0Q4RjFydGhUN2ZtZENVT3VvTEtpc0hNIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIwMHU1b3NzN2pldnlnV3ZsMjVkNyIsIm5hbWUiOiJSb21pbmEgTG9kb2xvIiwiZW1haWwiOiJsb2RvbG9yb21pbmFAZ21haWwuY29tIiwidmVyIjoxLCJpc3MiOiJodHRwczovL2Rldi00MTE1MTkxMS5va3RhLmNvbS9vYXV0aDIvZGVmYXVsdCIsImF1ZCI6IjBvYTVvdm9obG5JTnhtbW1WNWQ3IiwiaWF0IjoxNjU3NTI3NjEzLCJleHAiOjE2NTc1MzEyMTMsImp0aSI6IklELnFkbDF1MTl2T3AyNlBNZ0taSjhNb1NpQm42aGlWdnRQSmU3eXhpd3BzTnMiLCJhbXIiOltdLCJpZHAiOiIwb2E1b3N2ZWYweG5lM2I3SjVkNyIsInByZWZlcnJlZF91c2VybmFtZSI6InJvbWluYWxvZG9sb0BnaXRodWIub2t0YWlkcCIsImF1dGhfdGltZSI6MTY1NzUyNTM0NSwiYXRfaGFzaCI6Inp5SFZkVUhROFNBY2dneGF4Tk9vcFEifQ.X4ZuFqfMDQAIBqALzdpT6R0yKKtaPVusmZ8DmGSt29pG7zM7Cgbt6QQoynJeJDi9mO-xsNd49aT8Z1MaCWXQEs8JgD6pD2FPGtRu68rGxCGgcMEF-dCRpBwi5H9ByKzBVsq4KO5Bo-GTweSERsHvyRYC2WLD6Io8q_sbOzKmtLp0yPLkhfa1c6-3fMzIqtKwsnoGXy1UE0TtygmuQ4flous4c0hgXVOhL-I9NXbLWnvioXQX_5XS8YQ3bl5WNla9dElxfAskmkiwW_UP2hX2PGbIwAjkEjgEjDYBLB1Bbgl90RgZmZzP_pYkkY-gnDtNBamoLvMgIZ6cz0H3qIUHFg\}\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\ls5\ilvl0\cf2 introspection request\
+curl https://dev-41151911.okta.com/oauth2/default/v1/introspect \\\
+  -d client_id=\{YOUR_API_CLIENT_ID\} \\\
+  -d client_secret=\{YOUR_API_CLIENT_SECRET\} \\\
+  -d token=\{ACCESS_TOKEN\}\
+\
+curl https://dev-7533118.okta.com/oauth2/default/v1/revoke \\\
+  -d client_id=\{YOUR_CLIENT_ID\} \\\
+  -d client_secret=\{YOUR_CLIENT_SECRET\} \\\
+  -d token=\{ACCESS_TOKEN\}\
+\
+To check if the token really is revoked, make another request to the introspection endpoint:\
+\
+curl https://dev-41151911.okta.com/oauth2/default/v1/introspect \\\
+  -d client_id=\{YOUR_API_CLIENT_ID\} \\\
+  -d client_secret=\{YOUR_API_CLIENT_SECRET\} \\\
+  -d token=\{ACCESS_TOKEN\}}
