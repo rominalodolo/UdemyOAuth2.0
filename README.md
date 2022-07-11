@@ -440,7 +440,11 @@ _Cons_
 - No way to revoke them 
 
 ### Assignment 7: Protecting an API endpoint with access tokens 
-
+![se1](https://user-images.githubusercontent.com/83961643/178233266-5a64fde9-587f-4206-86c6-48f90ace68d4.jpeg)
+![api](https://user-images.githubusercontent.com/83961643/178233274-05d6343c-c6b3-4253-994f-56d8f9ee1a3f.jpeg)
+![sfdv](https://user-images.githubusercontent.com/83961643/178233844-471c59b8-933d-4463-bc2d-fdd1326be640.jpeg)
+![def](https://user-images.githubusercontent.com/83961643/178234020-329af054-f47f-4833-9b45-6aad7213b33d.jpeg)
+![qefac](https://user-images.githubusercontent.com/83961643/178234456-f97f9ee0-6aca-4c85-9139-2035a241ae94.jpeg)
 
 
 ## Section 12: JWT Access Tokens 
