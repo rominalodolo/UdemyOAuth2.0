@@ -383,20 +383,35 @@ Dont use these response type tokens to avoid leakage in front channel.
 
 Use PKCE and auth flow for maximum security. 
 
+Step 1: Validate the signature - know which key to use. 
+Step 2: Double check the time so it doesn't or isn't expired. 
+Step 3: If the token is stored and comes from somewhere else then it needs to be revalidated. 
+
+
 ### Assignment 6
+![correct](https://user-images.githubusercontent.com/83961643/178216397-bf35c7cd-5402-48e5-ad0c-db01442da01d.jpeg)
+![srg](https://user-images.githubusercontent.com/83961643/178216408-a8b9ceda-ae60-437c-ad00-9f99f85040ef.jpeg)
+
+![sg](https://user-images.githubusercontent.com/83961643/178216415-c10695d6-74a6-4d00-a932-19d3d72c1052.jpeg)
+![decode](https://user-images.githubusercontent.com/83961643/178216510-ee4debf7-d4bf-49df-abf3-7207b6e3fb87.jpeg)
 
 
 ## Section 10: Protecting an API with OAuth 
 OAuth doesn't care what format the access token is in. But the API doesn't know then how to read the information. 
 
 
+
 ## Section 11: Access Token Types and their Tradeoffs 
 
 ### Assignment 7: Protecting an API endpoint with access tokens 
 
+
+
 ## Section 12: JWT Access Tokens 
 
 ### Quiz 3
+
+
 
 ## Section 13: Choosing Token Lifetimes 
 
