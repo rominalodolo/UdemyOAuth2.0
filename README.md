@@ -381,6 +381,7 @@ Hybrid Flows: Combinations of response types
 Dont use these response type tokens to avoid leakage in front channel. 
 ![ignore](https://user-images.githubusercontent.com/83961643/178210550-724eab38-5f47-4d25-b7a2-ca323a8c6896.jpeg)
 
+Use PKCE and auth flow for maximum security. 
 
 ### Assignment 6
 
