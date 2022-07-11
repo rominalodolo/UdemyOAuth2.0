@@ -409,11 +409,40 @@ OAuth doesn't care what format the access token is in. But the API doesn't know 
 
 ## Section 11: Access Token Types and their Tradeoffs 
 
+Access Tokens: 
+- Reference token 
+- Structured token 
+
+Cache layer: 
+- Memcache 
+- Redis
+
+Only the API reads the access token 
+
+
+
 ### Assignment 7: Protecting an API endpoint with access tokens 
 
 
 
 ## Section 12: JWT Access Tokens 
+
+Pros and Cons using JWT
+_Pros_
+- No Database Table
+- Simpler to use if careful 
+- Used across services 
+
+_Cons_ 
+- Compromised Secret Key
+- Cannot manage client from the server
+- Cannot push Messages to clients
+- Crypto-algo can be deprecated
+- Data Overhead
+- Complicated to understand
+
+[Reference](https://medium.com/@rahulgolwalkar/pros-and-cons-in-using-jwt-json-web-tokens-196ac6d41fb4)
+
 
 ### Quiz 3
 
