@@ -412,6 +412,7 @@ OAuth doesn't care what format the access token is in. But the API doesn't know 
 Access Tokens: 
 - Reference token 
 - Structured token 
+- Self encoded token
 
 Cache layer: 
 - Memcache 
@@ -419,7 +420,24 @@ Cache layer:
 
 Only the API reads the access token 
 
+Reference token:
+_Pros_
+- Simple
+- Easy to revoke
+- Token data is not visible 
 
+_Cons_
+- Must be stored in the database 
+- Requires network to validate 
+
+Self encoded token:
+_Pros_
+- Can be valdated without network
+- Don't need shared storage 
+
+_Cons_
+- JWT contents are visible 
+- No way to revoke them 
 
 ### Assignment 7: Protecting an API endpoint with access tokens 
 
