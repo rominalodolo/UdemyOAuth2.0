@@ -492,10 +492,55 @@ You can create custom claims for public consumption, which might contain generic
 Private claims
 You can create private custom claims to share information specific to your application. For example, while a public claim might contain generic information like name and email, private claims would be more specific, such as employee ID and department name.
 
+(Validate Access Tokens)[https://auth0.com/docs/secure/tokens/access-tokens/validate-access-tokens]
+
+(API Gateway)[https://auth0.com/docs/customize/integrations/aws/aws-api-gateway-custom-authorizers]
+
 
 ### Quiz 3
 
 1. Which of the following is true about JWTs?
+Once a JWT is created it can never be changed
+
+2. FALSE: Access tokens in OAuth are always JWTs
+OAuth does not define any particular format for access tokens. That said, there is a recent extension to OAuth to formalize the use of JWTs as access tokens that an authorization server can optionally follow.
+
+3. What is the structure of a JWT?
+Header, Payload, Signature
+
+4. Which of the following is true about encoding and encrypting JWTs?
+JWTs can be encrypted and signed, but do not have to be either encrypted or signed.
+With the highly insecure “alg: none” method, no signature is included in the JWT. This method is not recommended.
+
+5. The JWT spec requires the following claims in the payload
+No claims are required - The core JWT spec does not require any claims, but it does define a few registered claims that implementations can use if they wish.
+
+6. The JWT OAuth Access Token spec requires the following claims in the payload
+![6](https://user-images.githubusercontent.com/83961643/178267702-07aa13b3-f0f8-439a-8504-ca46590106c8.jpeg)
+
+
+7. Which of the following is a disadvantage of an API always doing remote token introspection?
+It adds network latency to every API request
+
+8. Which of the following is an advantage of an API always doing remote token introspection?
+The API doesn't need to worry about whether a token has been invalidated before its expiration
+
+
+9. Which of the following is a disadvantage of an API always doing local token validation?
+The API will be unaware if a token became invalid before it expired 
+By only looking at the token itself, the API is looking at a snapshot of the state of the system when the token was issued, not the current state of the system.
+
+10. Which of the following is an advantage of an API doing local token validation?
+Virtually no additional latency is added to the Api request - Since local token validation does not require network requests, the performance cost of doing this validation is nearly zero. 
+
+
+## Section 13: Choosing Token Lifetimes 
+
+Increase security by using short lifetime tokens 
+
+### Quiz 4: Lifetime 
+
+1. 
 
 
 2. 
@@ -523,11 +568,6 @@ You can create private custom claims to share information specific to your appli
 
 
 10. 
-
-## Section 13: Choosing Token Lifetimes 
-
-### Quiz 4: Lifetime 
-
 
 
 ## Section 14: handeling revoked or Invalidated Tokens 
