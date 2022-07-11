@@ -576,7 +576,8 @@ The problem with local validation
 
 
 ### Assignment 8: Handeling revoked Tokens 
-
+If your API were validating tokens by looking at only the JWT signature and claims, would you be able to tell if a token was revoked?
+The revocation information lives only in the authorization server, so the token will look the same before and after it’s revoked, meaning your APIs would not know if a token had been revoked if they are only looking at the token itself.
 
 
 ## Section 15: Scopes
