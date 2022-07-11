@@ -540,37 +540,39 @@ Increase security by using short lifetime tokens
 
 ### Quiz 4: Lifetime 
 
-1. 
+1. Which would be a more secure access token lifetime if your APIs are doing local token validation?
+1 hour
+
+2. Which access token lifetime would be less disruptive to users?
+24 hours
+
+3. Which access token lifetime would be most disruptive to users?
+1 hour
+
+4. FALSE: Refresh token lifetimes always correspond to the session lifetime at the OAuth server
+
+5. FALSE: All access tokens issued by an OAuth server have to have the same lifetime
+The OAuth server is free to make up its own policies about token lifetimes
+Token lifetime may depend on many factors, including but not limited to the particular application, the user, or a group the user is in
+
+6. Which type of application has the highest user experience cost when the application has no refresh token and needs to get a new access token? Mobile Apps - Mobile apps have to launch an in-app browser in order to get new access tokens without a refresh token, which will always be visible to the user
+
+7. Which would be the most appropriate access token lifetime for admin users compared to consumers, and why?
+2 hours, because you want to ensure the user is actively using the application 
+Short token lifetimes force the application to frequently get new access tokens, reducing the risk of access tokens being used without the user’s knowledge
 
 
-2. 
+## Section 14: Handeling Revoked or Invalidated Tokens 
 
+Reasons why and access toekn may become invalid 
+- A deactivated account 
+- User revoking access to the application
+- Changed password
+- Immediate changes in the token system rolled out by the devs  
 
-3. 
+The problem with local validation 
+- 
 
-
-4. 
-
-
-5. 
-
-
-6.
-
-
-7.
-
-
-8. 
-
-
-9. 
-
-
-10. 
-
-
-## Section 14: handeling revoked or Invalidated Tokens 
 
 ### Assignment 8: Handeling revoked Tokens 
 
