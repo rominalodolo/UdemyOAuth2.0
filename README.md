@@ -473,10 +473,56 @@ _Cons_
 
 [Reference](https://medium.com/@rahulgolwalkar/pros-and-cons-in-using-jwt-json-web-tokens-196ac6d41fb4)
 
+![SAMPLE](https://user-images.githubusercontent.com/83961643/178261430-97e5ffa7-48d9-4436-89bd-07a0ebce3033.jpeg)
+![JWTCL](https://user-images.githubusercontent.com/83961643/178261467-4542499f-e4e0-433d-90a3-7b3364e305ed.jpeg)
+![RES](https://user-images.githubusercontent.com/83961643/178261471-c8016602-2198-4432-8fc1-f548f06805ae.jpeg)
+[Reference](https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-token-claims)
+
+Custom claims
+You can define your own custom claims which you control and you can add them to a token using a rule. You must use collision-resistant name using namespacing (which Auth0 requires).
+- Add a user's email address to an access token and use that to uniquely identify the user.
+- Add custom information stored in an Auth0 user profile to an ID token.
+
+Public claims
+You can create custom claims for public consumption, which might contain generic information like name and email
+- `auth_time`
+- `acr`
+- `nonce`
+
+Private claims
+You can create private custom claims to share information specific to your application. For example, while a public claim might contain generic information like name and email, private claims would be more specific, such as employee ID and department name.
+
 
 ### Quiz 3
 
+1. Which of the following is true about JWTs?
 
+
+2. 
+
+
+3. 
+
+
+4. 
+
+
+5. 
+
+
+6.
+
+
+7.
+
+
+8. 
+
+
+9. 
+
+
+10. 
 
 ## Section 13: Choosing Token Lifetimes 
 
