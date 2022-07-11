@@ -362,6 +362,7 @@ Main goal is to communicate information about users to applications. OAuth is ma
 
 ID Token - They are always JWT (JSON Web Tokens)
 ![jwt](https://user-images.githubusercontent.com/83961643/178207673-cf48c120-6335-4efe-b274-f26594d84f2a.jpeg)
+![dec](https://user-images.githubusercontent.com/83961643/178208302-87efa73f-2199-4e06-8e61-b7d5e12b58bf.jpeg)
 
 
 
