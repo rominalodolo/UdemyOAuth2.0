@@ -396,6 +396,9 @@ Step 3: If the token is stored and comes from somewhere else then it needs to be
 ![decode](https://user-images.githubusercontent.com/83961643/178216510-ee4debf7-d4bf-49df-abf3-7207b6e3fb87.jpeg)
 ![ergd](https://user-images.githubusercontent.com/83961643/178217363-ddc2dc87-4ea4-42f6-8f92-1724980c432d.jpeg)
 
+![working](https://user-images.githubusercontent.com/83961643/178221126-6941c50e-8b51-4c57-819c-deedd597d7e6.jpeg)
+![yay](https://user-images.githubusercontent.com/83961643/178221147-00471ea5-ac51-4205-8c9b-2fd352b0fa91.jpeg)
+
 
 ## Section 10: Protecting an API with OAuth 
 OAuth doesn't care what format the access token is in. But the API doesn't know then how to read the information. 
@@ -451,6 +454,8 @@ New developments coming up.
 
 Additional Recources: [EBook](https://oauth2simplified.com) 
 [Playground](https://www.oauth.com/playground/)
+
+![done](https://user-images.githubusercontent.com/83961643/178221344-4598c2e2-8cc1-4106-8f8d-451e15b39d04.jpeg)
 
 
 
