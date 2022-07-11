@@ -364,6 +364,9 @@ ID Token - They are always JWT (JSON Web Tokens)
 ![jwt](https://user-images.githubusercontent.com/83961643/178207673-cf48c120-6335-4efe-b274-f26594d84f2a.jpeg)
 ![dec](https://user-images.githubusercontent.com/83961643/178208302-87efa73f-2199-4e06-8e61-b7d5e12b58bf.jpeg)
 
+The difference between an ID Token and an Access Token 
+They are very different so do not get confused - they are not even remotly the same. 
+![diff](https://user-images.githubusercontent.com/83961643/178208601-d8d8705c-44d3-4b47-b79e-74e0cc23e2dc.jpeg)
 
 
 ### Assignment 6
