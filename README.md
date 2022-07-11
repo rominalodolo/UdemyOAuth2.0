@@ -591,7 +591,8 @@ Github, Slack, FitBit, Google are services that are an example of this."
 
 ### Assignment 9: Enforce Scopes in your API
 
-
+What scopes are you thinking about creating for your own API?
+I'd love to try out GET images or GET themes in scopes under create. But they all seem very helpful and useful.
 
 ## Section 16: Conclusion 
 
