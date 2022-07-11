@@ -449,6 +449,11 @@ _Cons_
 [Reference](https://auth0.com/docs/secure/tokens/access-tokens/get-access-tokens)
 ![test](https://user-images.githubusercontent.com/83961643/178236940-6c9b3799-15dd-4ec1-aaa5-55c601b5fa80.jpeg)
 
+Drawbacks of validating access tokens this way:
+This method of token validation requires that your API make a request over the network, adding network latency to every API request.
+
+An alternative way for an API to validate access tokens:
+These access tokens are JWTs, the API could validate the JWT locally without going over the network.
 
 ## Section 12: JWT Access Tokens 
 
